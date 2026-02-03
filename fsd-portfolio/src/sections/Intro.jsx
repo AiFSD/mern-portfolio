@@ -34,6 +34,7 @@ Preferring Uniqueness Over
           </h3>
       </div>
       </div>
+      <hr />
     </div>
   );
 };

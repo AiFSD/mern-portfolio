@@ -1,0 +1,136 @@
+/* ===== Root Section ===== */
+.skills-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  background: transparent;
+}
+
+/* ===== Tabs Container ===== */
+.tabs-container {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 1rem;
+
+  background: rgba(128, 90, 213, 0.08); /* soft purple wash */
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(128, 90, 213, 0.25);
+}
+
+/* ===== Individual Tab Button ===== */
+.tab-button {
+  position: relative;
+  padding: 0.6rem 1.6rem;
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(128, 90, 213, 0.35);
+
+  cursor: pointer;
+  overflow: hidden;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4c1d95; /* deep purple */
+
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tab-button:hover {
+  background: rgba(128, 90, 213, 0.15);
+  box-shadow: 0 6px 18px rgba(128, 90, 213, 0.25);
+}
+
+/* ===== Active Tab Background (motion div) ===== */
+.tab-active-bg {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.35),
+    rgba(139, 92, 246, 0.35)
+  );
+
+  z-index: 1;
+}
+
+/* ===== Tab Text ===== */
+.tab-text {
+  position: relative;
+  z-index: 2;
+  font-family: ui-sans-serif, system-ui, -apple-system;
+}
+
+/* ===== Content Wrapper ===== */
+.content-offset {
+  margin-top: 2rem;
+}
+
+.content-wrapper {
+  position: relative;
+  min-height: 220px;
+}
+
+/* ===== Content Card ===== */
+.content-card {
+  position: absolute;
+  width: 100%;
+
+  padding: 2rem;
+  border-radius: 1.25rem;
+
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(128, 90, 213, 0.25);
+
+  color: #2e1065; /* dark purple text */
+  line-height: 1.7;
+  font-size: 1rem;
+
+  box-shadow:
+    0 20px 40px rgba(128, 90, 213, 0.25);
+}
+
+/* ===== Paragraph Styling ===== */
+.content-card p {
+  margin: 0;
+}
+
+.skills-content{
+     gap:20px;
+}
+.skills-content p {
+     padding:10px;
+    
+     font-size:18px;
+}
+/* ===== Dark Mode ===== */
+@media (prefers-color-scheme: dark) {
+  .tabs-container {
+    background: rgba(88, 28, 135, 0.35);
+    border: 1px solid rgba(216, 180, 254, 0.3);
+  }
+
+  .tab-button {
+    background: rgba(30, 30, 45, 0.7);
+    color: #e9d5ff;
+    border: 1px solid rgba(216, 180, 254, 0.35);
+  }
+
+  .tab-button:hover {
+    background: rgba(168, 85, 247, 0.25);
+  }
+
+  .content-card {
+    background: rgba(30, 30, 45, 0.8);
+    color: #f3e8ff;
+    border: 1px solid rgba(216, 180, 254, 0.3);
+    box-shadow:
+      0 25px 50px rgba(0, 0, 0, 0.6);
+  }
+}

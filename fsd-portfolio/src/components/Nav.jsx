@@ -21,7 +21,7 @@ const Nav = () => {
           <div className="col">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                HIRE ME
+                Collobrations
               </a>
             </li>
           </div>
