@@ -1,8 +1,8 @@
-import "../styles/nav.css"
+import "../styles/nav.css";
 const Nav = () => {
   return (
-    <div className="container-fluid text-center">
-      <div className="row align-items-start">
+    <div className="container-fluid text-center nav-con">
+      <div className="row align-items-start nav-con1">
         <ul className="nav justify-content-center ">
           <div className="col">
             <li className="nav-item">
@@ -21,7 +21,7 @@ const Nav = () => {
           <div className="col">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Collobrations
+                HIRE ME
               </a>
             </li>
           </div>

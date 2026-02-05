@@ -1,4 +1,19 @@
-.nav-link{
-     font-size:larger;
-     color:black;
+.nav-link {
+     font-size: larger;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.nav-con {
+     box-shadow: rgba(255, 255, 255, 0.363) 10px 10px 10px 0px;
+
+}
+
+.nav-con1 {
+     padding: 15px;
+     background: linear-gradient(-1deg, #0000002a, #2a2a2a) 
+     ;
+     box-shadow: 0 2px 20px rgba(250, 250, 250, 0.068);
 }
