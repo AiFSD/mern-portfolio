@@ -1,15 +1,25 @@
 .mern , .dev{
-     font-size:120px;
-       font-family: "Explora", serif;
-  font-weight: 400;
+     font-size:100px;
+
+  font-family: "Explora", serif;
+
   font-style: normal;
+
+
+
+
 }
 .intro{
      margin-top:50px;
 }
 .sub{
        font-family: "Explora", serif;
-  font-weight: 800;
+  font-weight:500;
   font-style: normal;
-  font-size:50px;
+  font-size:70px;
+ 
+}
+.intro-con{
+     background:unset;
+     color:#e9e5cd;
 }

@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div>
       <Nav />
-      <div className="container  text-center">
+      <div className="container  text-center intro-con">
         <div className="col">
           <div className="intro">
             <h1 className="mern animate__animated animate__fadeInUpBig">

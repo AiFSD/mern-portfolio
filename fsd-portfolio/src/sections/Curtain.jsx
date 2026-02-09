@@ -5,7 +5,7 @@ const Curtain = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="skills-section">
+    <section className="container-fluid skills-section">
       <button className="reveal-btn" onClick={() => setOpen(!open)}>
         {open ? "CLOSE SKILLS" : "VIEW SKILLS"}
       </button>

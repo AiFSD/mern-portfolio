@@ -17,9 +17,10 @@ export default function SecondaryProjects() {
     <h5 className='text-center mt-5'>More About Technical Skills & Implementation</h5>
     <div className="swiper-con container  d-flex ">
    <div className="feSwipe">
-     <div className="feh">
+     <div className="feh" style={{textAlign:"center"}}>
           FrontEnd
      </div>
+     <br />
   <Swiper
     effect="cards"
     grabCursor={true}
